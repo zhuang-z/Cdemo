@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="10_switch.c">
+    <ClCompile Include="11_while.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

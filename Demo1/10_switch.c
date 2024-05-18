@@ -32,7 +32,7 @@ int main() {
 
 
 	//2.成绩按区间分类 成绩数字太大，需要除以10得到的十位数作为常量
-	int score;
+	int score = 0;
 	scanf_s("%d", &score);
 	int flag = score / 10;
 	switch (flag) {
