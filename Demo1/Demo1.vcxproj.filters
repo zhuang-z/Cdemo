@@ -15,19 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="16_function3.c">
+    <ClCompile Include="18_array1.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="16_function3-1.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="16_function3_global.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="function3.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

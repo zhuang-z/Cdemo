@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdbool.h>
 
-#include "function2.h"  //定义的头文件，可以把函数都放进头文件里面，在main.c文件里声明头文件，即可进行调用
+#include "14_function2.h"  //定义的头文件，可以把函数都放进头文件里面，在main.c文件里声明头文件，即可进行调用
 
 //extern void xiaoyou_printf();  //对xiaoyou_printf()进行声明，39行才能调用到函数(49-51)
 
