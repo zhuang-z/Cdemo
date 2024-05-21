@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="18_array1.c">
+    <ClCompile Include="18_array2.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
