@@ -20,9 +20,9 @@ int main() {
 	int* p = &a;   //int *p用来接收a的地址，*号挨着int或者挨着p都没关系，都是修饰p的，p就是地址，*p就是a的值
 	printf("%p\n", p);
 
-	char name[1] = {'xiao'};
+	char name[1];
 	printf("%s\n", name);  
-	printf("%p\n", name);  //对于数组而言，数组名就是地址
+	printf("%p\n", &name);  //对于数组取地址
 
 	//写一个scanf_s类似的函数
 	int b;   //输入b，得到b的值
