@@ -22,7 +22,7 @@ int main() {
 
 	char name[1];
 	printf("%s\n", name);  
-	printf("%p\n", &name);  //对于数组取地址
+	printf("%p\n", name);  //对于数组取地址 加不加&都可以
 
 	//写一个scanf_s类似的函数
 	int b;   //输入b，得到b的值
