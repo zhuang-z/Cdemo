@@ -38,6 +38,7 @@ int main() {
 	printf("%p\n", p);  //打印的是arr1的地址
 	//printf("%d\n", *p);  //无法打印arr1里面的值，因为arr1也是个地址，需要进行再次定位才能访问arr1里面的值
 
+	//指针的指针
 	//int* p1 = &arr;   int *p1 = arr1;能访问arr1的地址，如果需要访问arr里的arr1的地址，需要再加一个*，int **p1 =arr;
 	int** p1 = &arr;	//arr存放arr1,arr2,arr3的地址，*arr就能找到arr1的值,arr2的值,arr3的值
 						//p1存的arr的地址，*p1找到arr存的值，就是arr1，arr2，arr3的地址，**p1就是arr1，arr2，arr3的值，
@@ -67,7 +68,7 @@ int main() {
 	* 3.array[1][2],(pointer+3)+1，表示第2行第2列元素的地址；
 	*/
 	
-	//进行取值，加*号
+	//进行取值，加*号  ， 取地址就不要加*号，取*号就是取值
 	printf("%d\n", *array[0]);
 	printf("%d\n", *array[1]);  //array[0]到array[1]直接跳了12个字节，int是4字节，3列就是12个字节，直接跳到下一行
 	printf("%d\n", *(*(array + 1)));  //array+1直接跳到下一行,第二行第二列的元素
