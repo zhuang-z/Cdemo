@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="20_pointer5_func1.cpp">
+    <ClCompile Include="21_pointer6_func2.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
