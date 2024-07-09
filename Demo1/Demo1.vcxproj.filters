@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="22_pointer7_sort.c">
+    <ClCompile Include="22_pointer7_sort%28bubble&amp;selection%29.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
