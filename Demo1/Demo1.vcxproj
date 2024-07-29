@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="22_pointer7_sort%28bubble&amp;selection%29.c" />
+    <ClCompile Include="26_malloc&amp;calloc&amp;relloc_memory.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
