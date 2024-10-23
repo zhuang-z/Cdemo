@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="26_malloc&amp;calloc&amp;relloc_memory.c">
+    <ClCompile Include="27_string_processing.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
