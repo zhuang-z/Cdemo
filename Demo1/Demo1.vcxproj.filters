@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="32.struct-student-score.c">
+    <ClCompile Include="33.struct_array_point.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
