@@ -19,7 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="36.linkedlist.c" />
+    <ClCompile Include="34.struct_array_point_case.c" />
+    <ClCompile Include="37.linkedlist_Insert_delete.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

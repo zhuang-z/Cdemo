@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="36.linkedlist.c">
+    <ClCompile Include="37.linkedlist_Insert_delete.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="34.struct_array_point_case.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
