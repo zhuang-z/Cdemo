@@ -21,6 +21,9 @@
   <ItemGroup>
     <ClCompile Include="34.struct_array_point_case.c" />
     <ClCompile Include="37.linkedlist_Insert_delete.c" />
+    <ClCompile Include="38.union.c" />
+    <ClCompile Include="39.enum.c" />
+    <ClCompile Include="40.bit-operation.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
