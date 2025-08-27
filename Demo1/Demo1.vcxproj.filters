@@ -15,19 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="37.linkedlist_Insert_delete.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="34.struct_array_point_case.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="38.union.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="39.enum.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="40.bit-operation.c">
+    <ClCompile Include="42.fgetc&amp;fputc&amp;fgets&amp;fputs&amp;fread&amp;fwrite.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
