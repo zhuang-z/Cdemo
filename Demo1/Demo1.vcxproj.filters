@@ -18,5 +18,8 @@
     <ClCompile Include="42.fgetc&amp;fputc&amp;fgets&amp;fputs&amp;fread&amp;fwrite.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="41.fopen&amp;fclose.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

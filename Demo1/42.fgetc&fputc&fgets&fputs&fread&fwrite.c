@@ -59,6 +59,5 @@ int main() {
 
 	fclose(fp1);
 	fclose(fp3);
-
 	return 0;
 }
