@@ -19,8 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="41.fopen&amp;fclose.c" />
-    <ClCompile Include="42.fgetc&amp;fputc&amp;fgets&amp;fputs&amp;fread&amp;fwrite.c" />
+    <ClCompile Include="45.file-case.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
