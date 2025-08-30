@@ -19,7 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="45.file-case.c" />
+    <ClCompile Include="02_calculate.c" />
+    <ClCompile Include="03-1_practice.c" />
+    <ClCompile Include="06-1_practice.c" />
+    <ClCompile Include="09-1_practice.c" />
+    <ClCompile Include="09-2_practice.c" />
+    <ClCompile Include="46.all-case.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ssebtr1.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
