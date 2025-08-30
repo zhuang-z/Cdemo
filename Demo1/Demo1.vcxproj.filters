@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="45.file-case.c">
+    <ClCompile Include="46.all-case.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
