@@ -24,7 +24,24 @@
     <ClCompile Include="06-1_practice.c" />
     <ClCompile Include="09-1_practice.c" />
     <ClCompile Include="09-2_practice.c" />
-    <ClCompile Include="46.all-case.c" />
+    <ClCompile Include="29_memset.c" />
+    <ClCompile Include="30_printf_s&amp;sscanf_s.c" />
+    <ClCompile Include="31_struct.c" />
+    <ClCompile Include="32_struct-student-score.c" />
+    <ClCompile Include="33_struct_array_point.c" />
+    <ClCompile Include="34_struct_array_point_case.c" />
+    <ClCompile Include="35_struct_memory.c" />
+    <ClCompile Include="36_linkedlist.c" />
+    <ClCompile Include="37_linkedlist_Insert_delete.c" />
+    <ClCompile Include="38_union.c" />
+    <ClCompile Include="39_enum.c" />
+    <ClCompile Include="40_bit-operation.c" />
+    <ClCompile Include="41_fopen&amp;fclose.c" />
+    <ClCompile Include="42_fgetc&amp;fputc&amp;fgets&amp;fputs&amp;fread&amp;fwrite.c" />
+    <ClCompile Include="43_fprintf&amp;fscanf_s.c" />
+    <ClCompile Include="44_rewind&amp;fseek&amp;ftell.c" />
+    <ClCompile Include="45_file-case.c" />
+    <ClCompile Include="46_all-case.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ssebtr1.h" />
