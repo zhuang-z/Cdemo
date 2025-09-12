@@ -21,6 +21,8 @@
   <ItemGroup>
     <ClCompile Include="02_calculate.c" />
     <ClCompile Include="03-1_practice.c" />
+    <ClCompile Include="03_int.c" />
+    <ClCompile Include="04_float.c" />
     <ClCompile Include="06-1_practice.c" />
     <ClCompile Include="09-1_practice.c" />
     <ClCompile Include="09-2_practice.c" />
