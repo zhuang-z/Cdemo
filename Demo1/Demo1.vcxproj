@@ -34,7 +34,6 @@
     <ClCompile Include="36_linkedlist.c" />
     <ClCompile Include="37_linkedlist_Insert_delete.c" />
     <ClCompile Include="38_union.c" />
-    <ClCompile Include="39_enum.c" />
     <ClCompile Include="40_bit-operation.c" />
     <ClCompile Include="41_fopen&amp;fclose.c" />
     <ClCompile Include="42_fgetc&amp;fputc&amp;fgets&amp;fputs&amp;fread&amp;fwrite.c" />
