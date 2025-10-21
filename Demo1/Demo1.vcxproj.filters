@@ -15,28 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="46.all-case.c">
+    <ClCompile Include="10-1_practice.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="02_calculate.c">
+    <ClCompile Include="10-2_practice.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="03-1_practice.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="06-1_practice.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="09-1_practice.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="09-2_practice.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ssebtr1.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
