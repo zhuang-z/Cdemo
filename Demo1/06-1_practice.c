@@ -52,18 +52,33 @@ int main() {
 	//2.计算5年本息和
 	int n1 = 5, n2 = 3, n3 = 2;
 	float deposite1, deposite2, deposite3;
-	float principal = 10000; //本金
+	float principal = 60000; //本金  
+	// 14000元 5年后本息和 94018.54元
+	// 23000元 5年后本息和 154459.05元
+	// 40000元 5年后本息和 268624.41元
+	// 50000元 5年后本息和 335780.50元  5*5 = 25万元 增量 85,780.5元 上涨34%
+	// 60000元 5年后本息和 402936.60元  6*5 = 30万元 增量 102936.6元 上涨34%
 	float rate1 = 0.0275; //3 5年定期利率
 	float rate2 = 0.0225; //2年利率
 	float rate3 = 0.0135; //1年利率
+	float raw = principal;
+	int year = 5;
+	int i = 1;
+	while (i <= year) {
+		deposite1 = principal * (1 + rate1);
+		if (i != year) {
+			principal = deposite1 + raw;
+		}
+		i++;
 
-	deposite1 = principal * (1 + rate1 * n1); //一次性定期存5年；
-	deposite2 = principal * (1 + rate1 * n2) * (1 + rate2 * n3); //先存3年定期，再存2年定期
-	deposite3 = principal * (pow((1 + rate3), n1)); //存1年定期，第二年取出再存1年，依次类推
+	}
+	//deposite1 = principal * (1 + rate1 * n1); //一次性定期存5年；
+	//deposite2 = principal * (1 + rate1 * n2) * (1 + rate2 * n3); //先存3年定期，再存2年定期
+	//deposite3 = principal * (pow((1 + rate3), n1)); //存1年定期，第二年取出再存1年，依次类推
 
-	printf("一次性定期存5年本息和%.2f\n", deposite1);
-	printf("先存3年定期，再存2年定期本息和%.2f\n", deposite2);
-	printf("存1年定期，第二年取出再存1年，依次类推本息和%.2f\n", deposite3);
+	printf("一次性定期存5年本息和%.2f %.2f\n", deposite1, principal);
+	//printf("先存3年定期，再存2年定期本息和%.2f\n", deposite2);
+	//printf("存1年定期，第二年取出再存1年，依次类推本息和%.2f\n", deposite3);
 
 	printf("%d\n", (1 != 0 && 2 / 1));
 	return 0;
